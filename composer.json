@@ -1,8 +1,8 @@
 {
-    "name": "retinens/laravel-cookie-consent",
+    "name": "aonodevs/laravel-cookie-consent",
     "description": "Make your Laravel app comply with the crazy EU cookie law",
     "keywords": [
-        "retinens",
+        "aonodevs",
         "cookie-consent",
         "cookie",
         "laravel",
@@ -11,7 +11,7 @@
         "law",
         "eu"
     ],
-    "homepage": "https://github.com/retinens/laravel-cookie-consent",
+    "homepage": "https://github.com/aonodevs/laravel-cookie-consent",
     "license": "MIT",
     "authors": [
         {
