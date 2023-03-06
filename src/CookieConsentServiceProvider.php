@@ -3,7 +3,7 @@
 namespace Retinens\CookieConsent;
 
 use Illuminate\Contracts\View\View;
-use Illuminate\Cookie\Middleware\EncryptCookies;
+//use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Support\Facades\Cookie;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -31,8 +31,8 @@ class CookieConsentServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
-        $this->app->resolving(EncryptCookies::class, function (EncryptCookies $encryptCookies) {
-            $encryptCookies->disableFor(config('cookie-consent.cookie_name'));
-        });
+//        $this->app->resolving(EncryptCookies::class, function (EncryptCookies $encryptCookies) {
+//            $encryptCookies->disableFor(config('cookie-consent.cookie_name'));
+//        });
     }
 }
